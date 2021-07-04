@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: movies
-          image: oliveirajunior/rotten-potatos:v1
+          image: oliveirajunior/rotten-potatos
           ports:
             - containerPort: 5000
           env:
